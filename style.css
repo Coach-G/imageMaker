@@ -1,0 +1,49 @@
+#button {
+  border-radius: 20px;
+}
+
+#container {
+  margin: auto;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.newBox {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#grayBox {
+  width: 200px;
+  height: 200px;
+  background-color: gray;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+#firstChild {
+  width: 120px;
+  height: 200px;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+
+#secondParent {
+  width: 80px;
+  height: 200px;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  align-content: flex-start;
+  flex-wrap: wrap-reverse;
+}
+
+
+ 
