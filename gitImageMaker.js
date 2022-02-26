@@ -1,4 +1,4 @@
-//get random color
+
 function randomColor() {
     var letters = '0123456789ABCDEF';
     var color = '#';
